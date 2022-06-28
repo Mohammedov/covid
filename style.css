@@ -374,3 +374,82 @@ margin: 30px 390px
   .numeros{
     padding-top: 16px;
   }
+  .contenedortextos{
+    background-color:rgb(28, 54, 85);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  .preg{
+    font-size: 20px;
+    line-height: 100px;
+    margin: 20px 40px;
+  }
+  .parr{
+    margin: 20px 40px;
+    font-size: 15px;
+  }
+  .contenidocuatro{
+    padding: 100px;
+  }
+  .mobilfonegeneral{
+    padding-top: 180px;
+  }
+  .mobilfone{
+    background: #1a2980; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #1a2980, #26d0ce); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1a2980, #26d0ce); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 10px;
+    
+  }
+  .imagenuno{
+    position: relative;
+    top: -130px;
+    margin-left: 100px;
+    left: -150px;
+}
+.introTextuno{
+  display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 33px;
+    margin: 0 175px;
+    align-self: center;
+}
+
+.buttomTres {
+  border: none;
+  color: #fff;
+  background-image: linear-gradient(30deg, #f4f4fa, #f7fafa);
+  border-radius: 5px;
+  background-size: 100% auto;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 0.6em 1.5em;
+  color: black;
+
+ }
+ 
+ .buttomDos:hover {
+  background-position: right center;
+  background-size: 200% auto;
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse512 1.5s infinite;
+ }
+ 
+ @keyframes pulse512 {
+  0% {
+   box-shadow: 0 0 0 0 #05bada66;
+  }
+ 
+  70% {
+   box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+  }
+ 
+  100% {
+   box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+  }
+ }
+  

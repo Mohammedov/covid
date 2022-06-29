@@ -34,7 +34,7 @@
     z-index: 5;
   }
   
-  .navbar-container {
+.navbar-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,36 +42,36 @@
     font-family:  sans-serif;
   }
   
-  .logo-container {
+.logo-container {
     display: flex;
   }
   
-  .logo {
+.logo {
     font-size: 24px;
     font-weight: bold;
     color: darkblue;
     align-self: center;
     padding-left: 8px;
   }
-  .logoimg {
+.logoimg {
     display: flex;
 
   }
   
 
-  .menu-list {
+.menu-list {
     display: flex;
     list-style: none;
     color: black
   }
 
   
-  .menu-list-item {
+.menu-list-item {
     margin-right: 30px;
     padding: 10px;
   }
   
-  .menu-list-item.active {
+.menu-list-item.active {
     font-weight: bold;
   }
   
@@ -121,15 +121,13 @@
  .contenedorGeneral{
     display: flex;
     flex-direction: column;
-    background: rgb(32,124,202); /* Old browsers */
-    background: -moz-linear-gradient(top, rgba(32,124,202,1) 16%, rgba(0,27,38,1) 43%, rgba(38,0,56,1) 46%, rgba(38,0,56,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(32,124,202,1) 16%,rgba(0,27,38,1) 43%,rgba(38,0,56,1) 46%,rgba(38,0,56,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(32,124,202,1) 16%,rgba(0,27,38,1) 43%,rgba(38,0,56,1) 46%,rgba(38,0,56,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#260038',GradientType=0 );
+    background: rgb(125,185,232); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(125,185,232,1) 0%, rgba(125,185,232,1) 0%, rgba(125,185,232,1) 0%, rgba(43,136,217,1) 2%, rgba(33,102,198,1) 12%, rgba(33,102,198,1) 12%, rgba(33,102,198,1) 12%, rgba(33,102,198,1) 13%, rgba(33,102,198,1) 13%, rgba(96,57,214,1) 14%, rgba(28,0,58,1) 21%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(125,185,232,1) 0%,rgba(125,185,232,1) 0%,rgba(125,185,232,1) 0%,rgba(43,136,217,1) 2%,rgba(33,102,198,1) 12%,rgba(33,102,198,1) 12%,rgba(33,102,198,1) 12%,rgba(33,102,198,1) 13%,rgba(33,102,198,1) 13%,rgba(96,57,214,1) 14%,rgba(28,0,58,1) 21%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(125,185,232,1) 0%,rgba(125,185,232,1) 0%,rgba(125,185,232,1) 0%,rgba(43,136,217,1) 2%,rgba(33,102,198,1) 12%,rgba(33,102,198,1) 12%,rgba(33,102,198,1) 12%,rgba(33,102,198,1) 13%,rgba(33,102,198,1) 13%,rgba(96,57,214,1) 14%,rgba(28,0,58,1) 21%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1c003a',GradientType=0 );
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
     padding: 88px;
    }
 
@@ -452,4 +450,125 @@ margin: 30px 390px
    box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
   }
  }
+.enlacescontenedor{
+  padding-top: 80px;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+ .enlaces{
+  padding-top: 80px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+  font-weight: 600;
+  
+ }
+ .contenedorpreg{
+  display: flex ;
+  flex-direction: column;
+ }
+ .enlacetext{
+  margin: 10px 20px;
+  font-size: 30px;
+  margin: 12px 20px;
+ }
+ .iconos{
+  font-size: 20px;
+ }
+ .continuar{
+  font-size: 20px;
+  margin: 3px 20px;
+  
+ }
+ .continuaruno{
+  font-size: 20px;
+  margin: 3px 20px;
+  padding-left: 42px
+ }
+ .continuardos{
+  font-size: 20px;
+  margin: 3px 124px;
+  
+ }
+ .footer{
+  background-color: #0b3467;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 88px;
+ }
+  .logoimgdos{
+    display: flex;
+    filter: invert(100%) sepia(10%) saturate(7464%) hue-rotate(174deg) brightness(115%) contrast(150%);
+  }
+  .logodos{
+    font-size: 24px;
+    font-weight: bold;
+    color:black;
+    align-self: center;
+    padding-left: 8px;
+  }
+  .pieDePagina{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  } 
+  .pieDePaginaUno{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 100%;
+    
+  }
+  .pieDePaginaDos{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .about{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 60px;
+    line-height: 40px;
+
+  }
+  .aboutContainer{
+    width: 100%;
+    padding-right: 88px;
+    list-style: none;
+  }
+  .aboutLabelPrincipal{
+    font-size: 24px;
+    color: white;
+    font-family: sans-serif;
+  }
+  .aboutLabel{
+    font-size: 16px;
+    color: rgb(74, 74, 142);
+    font-family: sans-serif;
+  }
+  .footerIcon{
+    display: flex;
+    flex-direction: row;
+    margin-top: 26px;
+    gap: 12px;
+    
+  }
+  .iconored{
+    display: flex;
+    background-color: rgb(74, 74, 142);
+    border-radius: 50%;
+    width: 50px;
+    height: 45px;
+  }
+  .parrafocovid{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(74, 74, 142);;
+    margin-top: 20px;
+    line-height: 30px;
+  }
   

@@ -6,23 +6,23 @@
 
 
 /* home1 */
-header {
+.headerdos {
     position: relative;
 }
 
-body {
+.bodydos {
     font-family: Arial, Helvetica, sans-serif;
     color: white;  
 }
 
-nav {
+.nav {
     background-color: transparent;
     position: absolute;
     height: 10vh;
     width: 100%;
     display: flex;
-    
    padding-right: 60px;
+    
 }
 
 .logo2 {

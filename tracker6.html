@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>COVID-19 Tracker</title>
+    <title>COVID-19 Tracker6</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="style_tracker.css" rel="stylesheet" type="text/css">
-    
+    <link href="style_tracker6.css" rel="stylesheet" type="text/css">
   </head>
 
 
   <body>
     <nav class="navegacion_vertical">
-      <img src="images/coronavirus.png" class="coronavirus_logo_nav" >
-      <a href="tracker.html" class="icons_nav" id="page">
+      <img src="images/coronavirus.png" class="coronavirus_logo_nav">
+      <a href="tracker.html" class="icons_nav">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16">
           <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
         </svg>
@@ -39,7 +39,7 @@
           <path d="M12 1a2 2 0 0 1 2 2 2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2 2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h10ZM2 12V5a2 2 0 0 1 2-2h9a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1Zm1-4v5a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V8H3Zm12-1V5a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v2h12Z"/>
         </svg>
       </a>
-      <a href="tracker6.html" class="icons_nav">
+      <a href="tracker6.html" class="icons_nav" id="page">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z"/>
         </svg>
@@ -56,9 +56,9 @@
       </a>
     </nav>
     <main>
-      <section class="data_general">
+        <section class="data_general">
         <div class="container_covid_global">
-          <a href="./index.html" class="title_covid_global">COVID-19 Tracker</a>
+          <h1 class="title_covid_global">COVID-19 Tracker</h1>
           <div class="total_case sty_cases" >
             <h3>Total Case</h3>
             <p id="total_case"></p>
@@ -81,87 +81,16 @@
           <ul id="top10country">
           </ul>
         </div>
-      </section>
-      <section class="principal_section">
-        <div class="filter">
-          <span id="selector_country"></span>
-          <p>Updated: January 31,2022</p>
-        </div> 
-        <div class="data_country_container">
-          <div class="total_cases_country  data_country">
-            <h5>Total cases</h5>
-            <p id="total_cases_country"></p>
-            <img src="images/icons/covid-defult.svg" class="iconos_country">
-          </div>
-          <div class="total_deaths_country  data_country" >
-            <h5>Total Deaths</h5>
-            <p id="total_deaths_country"></p>
-            <img src="images/icons/covid-red.svg" class="iconos_country">
-          </div>
-          <div class="total_recovered_country  data_country" >
-            <h5>Total Recovered</h5>
-            <p id="total_recovered_country"></p>
-            <img src="images/icons/covid-green.svg" class="iconos_country">
-          </div>
-          <div class="total_active_country  data_country" >
-            <h5>Total Active</h5>
-            <p id="total_active_country"></p>
-            <img src="images/icons/covid-blue.svg" class="iconos_country">
-          </div>
-          <div class="new_cases_country  data_country" >
-            <h5>New cases</h5>
-            <p id="new_cases_country"></p>
-            <img src="images/icons/covid-orange.svg" class="iconos_country">
-          </div>
-          <div class="new_deaths_country  data_country" >
-            <h5>New Deaths</h5>
-            <p id="new_deaths_country"></p>
-            <img src="images/icons/covid-redark.svg" class="iconos_country">
-          </div>
-        </div>
-        <div class="container_total">
-          <div class="total_date ">
-            <img src="images/icons/covid-defult.svg" class="iconos_covid">
-            <div class="container_total_date">
-              <h6>Total Confirmed</h6>
-              <p id="total_confirmed">sdfasfsd</p>
-            </div> 
-          </div>
-          <div class="total_date " >
-            <img src="images/icons/covid-green.svg" class="iconos_covid">
-            <div class="container_total_date">
-              <h6>Total Recovered</h6>
-              <p id="total_recovered"></p>
-            </div>
-          </div>
-          <div class="total_date ">
-            <img src="images/icons/covid-orange.svg" class="iconos_covid">
-            <div class="container_total_date">
-              <h6>Total Deaths</h6>
-              <p id="total_deaths"></p>
-            </div>
-          </div>
-          <div class="total_date ">
-            <img src="images/icons/covid-red.svg" class="iconos_covid">
-            <div class="container_total_date">
-              <h6>New Deaths</h6>
-              <p id="new_deaths"></p>
-            </div>
-          </div>
-          <div class="total_date ">
-            <img src="images/icons/telephone.svg" class="iconos_covid">
-            <div class="container_total_date">
-              <h6>Help Line No.</h6>
-              <p id="help_line_no"></p>
-            </div>
-          </div>
-        </div>      
-      </section>
+        </section>
+        <section class="principal_section">
+          <img src="images/bromita2.png" height="680px" width="880px" onclick="bromita()" id="bromita">
+        </section>
 
 
     </main>
-    <footer>
 
+
+    <footer>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="function_tracker.js"></script>

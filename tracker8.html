@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>COVID-19 Tracker</title>
+    <title>COVID-19 Tracker8  </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="style_tracker.css" rel="stylesheet" type="text/css">
-    
+    <link href="style_tracker8.css" rel="stylesheet" type="text/css">
   </head>
 
 
   <body>
     <nav class="navegacion_vertical">
-      <img src="images/coronavirus.png" class="coronavirus_logo_nav" >
-      <a href="tracker.html" class="icons_nav" id="page">
+      <img src="images/coronavirus.png" class="coronavirus_logo_nav">
+      <a href="tracker.html" class="icons_nav">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16">
           <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
         </svg>
@@ -49,16 +49,16 @@
           <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
         </svg>
       </a>
-      <a href="tracker8.html" class="icons_nav">
+      <a href="tracker8.html" class="icons_nav" id="page">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left" viewBox="0 0 16 16">
           <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
         </svg>  
       </a>
     </nav>
     <main>
-      <section class="data_general">
+        <section class="data_general">
         <div class="container_covid_global">
-          <a href="./index.html" class="title_covid_global">COVID-19 Tracker</a>
+          <h1 class="title_covid_global">COVID-19 Tracker</h1>
           <div class="total_case sty_cases" >
             <h3>Total Case</h3>
             <p id="total_case"></p>
@@ -81,87 +81,51 @@
           <ul id="top10country">
           </ul>
         </div>
-      </section>
-      <section class="principal_section">
-        <div class="filter">
-          <span id="selector_country"></span>
-          <p>Updated: January 31,2022</p>
-        </div> 
-        <div class="data_country_container">
-          <div class="total_cases_country  data_country">
-            <h5>Total cases</h5>
-            <p id="total_cases_country"></p>
-            <img src="images/icons/covid-defult.svg" class="iconos_country">
+        </section>
+        <section class="principal_section">
+          <div class="new">
+            <img src="images/blog-1.jpg" class="blog">
+            <div class="continer_time"></div>
+            <h3>Aquí va la noticia</h3>
+            <a href="#">Continue...</a> 
           </div>
-          <div class="total_deaths_country  data_country" >
-            <h5>Total Deaths</h5>
-            <p id="total_deaths_country"></p>
-            <img src="images/icons/covid-red.svg" class="iconos_country">
+          <div class="new">
+            <img src="images/blog-2.jpg" class="blog">
+            <div class="continer_time"></div>
+            <h3>Aquí va la noticia</h3>
+            <a href="#">Continue...</a> 
           </div>
-          <div class="total_recovered_country  data_country" >
-            <h5>Total Recovered</h5>
-            <p id="total_recovered_country"></p>
-            <img src="images/icons/covid-green.svg" class="iconos_country">
+          <div class="new">
+            <img src="images/blog-3.jpg" class="blog">
+            <div class="continer_time"></div>
+            <h3>Aquí va la noticia</h3>
+            <a href="#">Continue...</a> 
           </div>
-          <div class="total_active_country  data_country" >
-            <h5>Total Active</h5>
-            <p id="total_active_country"></p>
-            <img src="images/icons/covid-blue.svg" class="iconos_country">
+          <div class="new">
+            <img src="images/blog-1.jpg" class="blog">
+            <div class="continer_time"></div>
+            <h3>Aquí va la noticia</h3>
+            <a href="#">Continue...</a> 
           </div>
-          <div class="new_cases_country  data_country" >
-            <h5>New cases</h5>
-            <p id="new_cases_country"></p>
-            <img src="images/icons/covid-orange.svg" class="iconos_country">
+          <div class="new">
+            <img src="images/blog-2.jpg" class="blog">
+            <div class="continer_time"></div>
+            <h3>Aquí va la noticia</h3>
+            <a href="#">Continue...</a> 
           </div>
-          <div class="new_deaths_country  data_country" >
-            <h5>New Deaths</h5>
-            <p id="new_deaths_country"></p>
-            <img src="images/icons/covid-redark.svg" class="iconos_country">
+          <div class="new">
+            <img src="images/blog-3.jpg" class="blog">
+            <div class="continer_time"></div>
+            <h3>Aquí va la noticia</h3>
+            <a href="#">Continue...</a> 
           </div>
-        </div>
-        <div class="container_total">
-          <div class="total_date ">
-            <img src="images/icons/covid-defult.svg" class="iconos_covid">
-            <div class="container_total_date">
-              <h6>Total Confirmed</h6>
-              <p id="total_confirmed">sdfasfsd</p>
-            </div> 
-          </div>
-          <div class="total_date " >
-            <img src="images/icons/covid-green.svg" class="iconos_covid">
-            <div class="container_total_date">
-              <h6>Total Recovered</h6>
-              <p id="total_recovered"></p>
-            </div>
-          </div>
-          <div class="total_date ">
-            <img src="images/icons/covid-orange.svg" class="iconos_covid">
-            <div class="container_total_date">
-              <h6>Total Deaths</h6>
-              <p id="total_deaths"></p>
-            </div>
-          </div>
-          <div class="total_date ">
-            <img src="images/icons/covid-red.svg" class="iconos_covid">
-            <div class="container_total_date">
-              <h6>New Deaths</h6>
-              <p id="new_deaths"></p>
-            </div>
-          </div>
-          <div class="total_date ">
-            <img src="images/icons/telephone.svg" class="iconos_covid">
-            <div class="container_total_date">
-              <h6>Help Line No.</h6>
-              <p id="help_line_no"></p>
-            </div>
-          </div>
-        </div>      
-      </section>
+        </section>
 
 
     </main>
-    <footer>
 
+
+    <footer>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="function_tracker.js"></script>
